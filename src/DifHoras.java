@@ -4,8 +4,8 @@ import java.time.Period;
 
 public class DifHoras {
     public static void main(String[] args) {
-        LocalTime horaInicio = LocalTime.parse("14:30:00");
-        LocalTime horaFim = LocalTime.parse("16:45:00");
+        LocalTime horaInicio = LocalTime.of(14, 30, 0);
+        LocalTime horaFim = LocalTime.of(16, 45, 0);
 
         Duration diferenca = Duration.between(horaInicio, horaFim);
 
