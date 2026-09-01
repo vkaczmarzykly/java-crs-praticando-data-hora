@@ -1,6 +1,5 @@
 import java.time.Duration;
 import java.time.LocalTime;
-import java.time.Period;
 
 public class DifHoras {
     public static void main(String[] args) {
