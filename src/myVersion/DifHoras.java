@@ -1,3 +1,5 @@
+package myVersion;
+
 import java.time.Duration;
 import java.time.LocalTime;
 
